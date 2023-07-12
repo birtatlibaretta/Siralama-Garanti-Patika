@@ -1,0 +1,1 @@
+# Siralama-Garanti-Patika

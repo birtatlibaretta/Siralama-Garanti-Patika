@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Sıralama {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int sayı1, sayı2, sayı3;
+
+        System.out.println("Sayıları Girin: ");
+        sayı1 = sc.nextInt();
+        sayı2 = sc.nextInt();
+        sayı3 = sc.nextInt();
+
+        int[] sayı = new int[]{num1, num2, num3};
+        Arrays.sort(sayı);
+
+        System.out.println("Sıralanmış Sayılar: " + sayı[0] + ", " + sayı[1] + ", " + sayı[2]);
+    }
+}
